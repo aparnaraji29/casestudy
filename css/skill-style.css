@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(/images/blur_i.jpg);
+    enable-background: blur(2em) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+header{
+    background-color: rgb(255, 214, 245);
+    height: 7em;
+}
+/* nav buttons */
+.image_icon{
+    width: 50%;
+}
+.navigation{
+    float: right;
+    margin-top: 2em;
+    
+    margin-left: 100em;
+}
+
+
+.head1{
+    float: none;
+    margin-right: 10em;
+    margin-top: .5em;
+    
+    padding: 4em;
+    
+    /* text-align: justify; */
+    
+    
+}
+.head1 h1{
+    color: rgb(102, 8, 71);
+    font-size: 4.6em;
+    margin-left: 8em;
+    
+}
+.listing{
+    color: rgb(8, 8, 8);
+    font-size: 2.5em;
+    margin-left: 14em;
+  /* list-style-image: url(/images/); */
+     /* list-style-image: linear-gradient(to left bottom, red, blue); */
+    
+    
+}
+ul{
+    list-style: none;
+}
+ul li::before{
+    content: "✅";
+    
+}
